@@ -64,3 +64,10 @@
  * 'expr1 ?? expr2' => If expr1 is non-null, returns its value; otherwise, evaluates and returns the value of expr2
  */
 
+void main() {
+  int a = 10;
+  int b = null;
+
+  int result = b ?? a;
+  print(result);
+}
